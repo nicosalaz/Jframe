@@ -30,7 +30,7 @@ public class Ventana extends JFrame{
     
     
     public Ventana(){
-        setSize(500,500);//establecemos tamaño de ventana
+        setSize(400,400);//establecemos tamaño de ventana
         setDefaultCloseOperation(EXIT_ON_CLOSE);//Cierra la consola y la ventana
         //setLocation(450, 150);//modifica la ubicacion
         //setBounds(450, 150, 500, 500);//reune size y location
