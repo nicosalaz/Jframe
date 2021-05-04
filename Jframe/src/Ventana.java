@@ -25,6 +25,7 @@ public class Ventana extends JFrame{
     public JPanel panel;
     JButton bHarina;
     JButton bTrigo;
+    JButton bSalir;
     boolean estado ;
     
     
@@ -106,6 +107,11 @@ public class Ventana extends JFrame{
         panel.add(bTrigo);
         
         mouse();
+    }
+        public void botonSalir(){
+        bSalir = new JButton("Salir");
+        bSalir.setBounds(250, 200, 100, 20);//establecemos tamaño y ubicacion del boton
+        panel.add(bSalir);
     }
     private void mouse(){
         MouseListener accion = new MouseListener() {

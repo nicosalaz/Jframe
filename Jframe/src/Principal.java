@@ -13,9 +13,9 @@ public class Principal {
         Ventana v1 = new Ventana();
         Ventana_dos v2 = new Ventana_dos();
         v1.setVisible(true);
-            if (v1.estado == true) {
-                v2.setVisible(true);
-            }
+        if (v1.estado == true) {
+            v2.setVisible(true);
+        }
             
         
     }

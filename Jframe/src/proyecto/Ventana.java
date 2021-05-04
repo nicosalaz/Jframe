@@ -64,8 +64,6 @@ public class Ventana extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(500, 500));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 36)); // NOI18N
         jLabel1.setText("Bienvenido:");
 
